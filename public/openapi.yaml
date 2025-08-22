@@ -4,7 +4,7 @@ info:
   description: API for retrieving parcel data in Nashville and Tennessee.
   version: "1.0.0"
 servers:
-  - url: https://chatgpt-gis-vercel1.vercel.app
+  - url: https://gis-plugin-test.vercel.app
 paths:
   /api/hello:
     get:
