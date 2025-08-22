@@ -1,0 +1,24 @@
+﻿openapi: 3.0.1
+info:
+  title: Nashville GIS Parcels API
+  description: API for retrieving parcel data in Nashville and Tennessee.
+  version: "1.0.0"
+servers:
+  - url: https://chatgpt-gis-vercel1.vercel.app
+paths:
+  /api/hello:
+    get:
+      summary: Hello endpoint test
+      operationId: getHello
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  message:
+                    type: string
