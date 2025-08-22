@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://chatgpt-gis-vercel1.vercel.app/openapi.yaml"
+    "url": "https://gis-plugin-test.vercel.app/openapi.yaml"
   },
-  "logo_url": "https://chatgpt-gis-vercel1.vercel.app/logo.png",
+  "logo_url": "https://gis-plugin-test.vercel.app/logo.png",
   "contact_email": "nashvilledesignbuilders@gmail.com",
-  "legal_info_url": "https://chatgpt-gis-vercel1.vercel.app/legal.html"
+  "legal_info_url": "https://gis-plugin-test.vercel.app/legal.html"
 }
