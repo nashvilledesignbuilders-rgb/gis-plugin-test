@@ -11,5 +11,19 @@
       "src": "/api/(.*)",
       "dest": "/api/$1"
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.yaml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/yaml" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.json",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json" }
+      ]
+    }
   ]
 }
