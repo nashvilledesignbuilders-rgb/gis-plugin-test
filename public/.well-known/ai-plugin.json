@@ -4,9 +4,14 @@
   "name_for_model": "nashville_gis_parcels",
   "description_for_human": "Retrieve and explore property parcel data in Nashville and Tennessee.",
   "description_for_model": "Plugin to retrieve property parcel information from Metro Nashville and Tennessee property services. Supports queries by APN, PIN, and geometry.",
-  "auth": { "type": "none" },
-  "api": { "type": "openapi", "url": "https://chatgpt-gis-vercel1.vercel.app/openapi.yaml" },
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-gis-vercel1.vercel.app/openapi.yaml"
+  },
   "logo_url": "https://chatgpt-gis-vercel1.vercel.app/logo.png",
-  "contact_email": "support@example.com",
+  "contact_email": "nashvilledesignbuilders@gmail.com",
   "legal_info_url": "https://chatgpt-gis-vercel1.vercel.app/legal.html"
 }
